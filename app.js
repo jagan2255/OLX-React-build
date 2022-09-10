@@ -10,7 +10,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(cors());
 app.use(express.static('./build'))
-
+ 
 const userdata = require('./src/Model/usermodel')
 const productdata = require('./src/Model/productmodel')
 
